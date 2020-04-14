@@ -2,6 +2,49 @@ body {
   background-color: #f2cd5d;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+#title {
+  font-size: 50px;
+  background-color: #3a1772;
+  color: #f2cd5d;
+  text-align: center;
+}
+#beforeAndAfterArea {
+  background-color: #3a1772;
+  padding: 30px;
+  margin: 25px;
+  border: 50px;
+  text-align: center;
+}
+#beforeAndAfterAreaTextNode {
+  background-color: #5bc0eb;
+  padding: 20px;
+  margin: 25px;
+  border: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+#before {
+  background-color: #e01a4f;
+  padding: 20px;
+  margin: 25px;
+  border: 30px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+#after {
+  background-color: #7ac74f;
+  padding: 20px;
+  margin: 25px;
+  border: 30px;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+#afterData {
+  letter-spacing: 10px;
+  font-size: 20;
+}
 
 /*
 BLUE JEANS BLUE: #5BC0EB

@@ -44,7 +44,7 @@ class minHeapSort {
   // the createTheMinHeap method finds the last group of parent/child elements and then runs minHeapComparisonCheck with that group
   createTheMinHeap() {
     // because of the work of brilliant mathematical minds, the formula for finding all of the parent elements is as follows:
-    for (let i = Math.floor(this.array.length / 2); i >= 0; i--) {
+    for (let i = Math.floor(this.array.length - 1 / 2); i >= 0; i--) {
       this.minHeapComparisonCheck(i);
     }
   }
